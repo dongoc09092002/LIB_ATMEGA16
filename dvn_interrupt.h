@@ -8,12 +8,12 @@
 	ISR(INT2_vect){}
 	KHAI BAO CAC HAM NAY TRONG HAM MAIN DE SU DUNG -> 5TING
 */
-typedef enum dvn_interrupt_gpio{
+enum dvn_interrupt_gpio{
 	INT_0,
 	INT_1,
 	INT_2
 };
-typedef enum dvn_interrupt_type{
+enum dvn_interrupt_type{
 	INT_FALLING,
 	INT_RISING,
 };

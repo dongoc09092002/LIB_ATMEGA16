@@ -113,8 +113,9 @@ uint8_t dvn_gpio_read_pin(enum dvn_gpio_port _GPIO, enum dvn_gpio_pin _PIN){
 		default :
 		break;
 	}
-
+	return 0;
 };
+
 void dvn_gpio_toggle_pin(enum dvn_gpio_port _GPIO ,enum dvn_gpio_pin _PIN){
 	if(dvn_gpio_read_pin(_GPIO,_PIN) == 0){
 		dvn_gpio_write_pin(_GPIO,_PIN,1);

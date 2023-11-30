@@ -7,8 +7,6 @@
 	ISR(INT2_vect){}
 	KHAI BAO CAC HAM NAY TRONG HAM MAIN DE SU DUNG -> 5TING
 */
-
-
 void dvn_interrupt_gpio(enum dvn_interrupt_gpio _INT ,enum dvn_interrupt_type _INT_TYPE ){
 	switch(_INT){
 		case INT_0: 
